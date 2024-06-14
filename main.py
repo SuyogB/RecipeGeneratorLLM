@@ -13,7 +13,7 @@ llm = OpenAI(openai_api_key=API_KEY, temperature=0.9)
 # meal template
 meal_template = PromptTemplate(
     input_variables=["ingredients"],
-    template="Give me an example of 2 meals that could be made using the following ingredients: {ingredients}",
+    template="Give me an example of 3 meals that could be made using the following ingredients: {ingredients}",
 )
 
 # gangster template
